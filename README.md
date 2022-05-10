@@ -17,8 +17,12 @@ Docker simplifies system and application management and deployment.
 Create a docker image
 ---------------------
 
-"Hello world!" example using a pre-built CentOS 7 image: create_image/hello_world/go.sh
+Basic example on how to create images: create_image/
 
+Use multistage builds
+---------------------
+
+Examples on how to create Docker image using multiple stages, and why you should use them: multi_stage_builds/
 
 Image deployed to gitlab registry
 ---------------------------------
