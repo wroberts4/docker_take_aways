@@ -11,7 +11,7 @@ General information
 
 hello_world
 -----------
-Make a bear-bones Docker image based off CentOS 7: hello_world/go.sh
+Make a bare-bones Docker image based off CentOS 7: hello_world/go.sh
 
 jupyterlab
 ----------
@@ -37,6 +37,8 @@ docker:dind
 -----------
 
 Run Docker inside Docker. Be careful with this, as it has some weird querks: docker_in_docker/go.sh
+
+- Must be ran with `--privileged`, which can be dangerous and may not work for all users (based on permissions)
 
 
 Gotchyas
