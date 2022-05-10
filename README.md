@@ -28,3 +28,8 @@ Image deployed to gitlab registry
 ---------------------------------
 
 Docker registry image: gitlab.ssec.wisc.edu:5555/aeri/aeri_armory/docker_demo
+
+Slide Show
+----------
+
+Docker_Takeaways.pdf
