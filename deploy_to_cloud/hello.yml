@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-world
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-world
+  template:
+    metadata:
+      labels:
+        app: hello-world
+    spec:
+      containers:
+      - name: hello-world
+        image: gitlab.ssec.wisc.edu:5555/aeri/aeri_armory/docker_demo:1.0.0
+        command: ["bash", "-c", "while true; do sleep 30; done"]
+        stdin: true
